@@ -1,0 +1,24 @@
+<IfModule mod_headers.c>
+	<Files index.html>
+		# HTTP/2 Push links
+		Header add Link "</js-libs/adapter.min.js>;rel=preload"
+		Header add Link "</js-libs/jquery.min.js>;rel=preload"
+		Header add Link "</js-libs/bootstrap.min.js>;rel=preload"
+		Header add Link "</js-libs/bootbox.min.js>;rel=preload"
+		Header add Link "</js-libs/spin.min.js>;rel=preload"
+		Header add Link "</js-libs/jquery-animate-css-rotate-scale.js>;rel=preload"
+		Header add Link "</js-libs/jquery-css-transform.js>;rel=preload"
+		Header add Link "</js-libs/jquery.easing.1.3.js>;rel=preload"
+		Header add Link "</janus.js>;rel=preload"
+		Header add Link "</streaming.js>;rel=preload"
+		Header add Link "</css/bootstrap.min.css>;rel=preload"
+		Header add Link "</css/streaming.css>;rel=preload"
+		Header add Link "</css/font-awesome.min.css>;rel=preload"
+		# Images will be cached, but pushing them saves round trips
+		Header add Link "</opus_logo_textonly.svg>;rel=preload"
+		Header add Link "</vinyl_disc.svg>;rel=preload"
+		Header add Link "</vinyl_highlights.svg>;rel=preload"
+	</Files>
+</IfModule>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet

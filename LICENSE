@@ -199,3 +199,22 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+This repository also includes other works which may be available under
+different license. See the specific files for details:
+
+html/js-libs/adapter.min.js - 3-clause BSD
+html/js-libs/bootbox.min.js - MIT
+html/js-libs/bootstrap.min.js - Apache 2.0
+html/js-libs/jquery-animate-css-rotate-scale.js - Dual MIT/GPL
+html/js-libs/jquery-css-transform.js - Dual MIT/GPL
+html/js-libs/jquery.easing.1.3.js - BSD
+html/js-libs/jquery.min.js - Apache 2.0
+html/js-libs/spin.min.js - MIT
+html/css/bootstrap.min.js - MIT
+html/css/font-awesome.min.css - MIT
+html/css/streaming.css - GPLv3
+html/vinyl_disc.svg - CC-BY-SA 3.0
+html/vinyl_highlights.svg - CC-BY-SA 3.0
+html/janus.js - GPLv3
+html/streaming.js - GPLv3
